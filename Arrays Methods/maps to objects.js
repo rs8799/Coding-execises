@@ -40,17 +40,3 @@ console.log(usersMapped[0].id)
 
 
 
-
-
-
-
-
-
-
-
-/* 
-let usersMapped = users.map(user => ({
-  fullname:`${user.name} ${user.surname}`,
-  id:user.id
-}));
-alert(usersMapped[0].fullname) */
