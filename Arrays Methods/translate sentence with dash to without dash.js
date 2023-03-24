@@ -10,9 +10,22 @@ camelize("-webkit-transition") == 'WebkitTransition';
 
 P.S. Hint: use split to split the string into an array, transform it and join back. */
 
+
+function camelize(str){
+  return str.
+  split('-')
+  .map((word,index)=>word.index == 0 ? word:word[0].toUpperCase() + word.slice(1))
+  .join('')
+}
+
+
+
+
+
+/* 
 function camelize(str){
   return str
   .split('-')
   .map((word,index) => index == 0 ? word :word[0].toUpperCase() + word.slice(1))
   .join('');
-}
+} */
