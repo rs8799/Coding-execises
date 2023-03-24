@@ -10,8 +10,7 @@ let mary = { name: "Mary", age: 29 };
 
 let arr = [ john, pete, mary ];
 
-/* alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28 */
-let sum = 0;
+
 function getAverageAge(users){
   return arr.reduce((prev,user) => prev + user.age,0)/users.length
 }
